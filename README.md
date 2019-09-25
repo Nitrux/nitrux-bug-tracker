@@ -1,4 +1,4 @@
-# Bug Repository for Nitrux 1.1.x Releases
+# Bug Repository for Nitrux
 ## How to report bugs
 Nitrux uses GitHub to keep track of bugs and their fixes.
 
@@ -11,7 +11,7 @@ You should not file a bug if you are:
 
 ## Submitting a Bug
 
-Before submitting a bug, you should look at the [existing bug reports](https://github.com/Nitrux/nitrux-iso-bug-tracker/issues) and [release notes](https://sourceforge.net/p/nitruxos/news/) to verify the bug hasn’t been reported already. If the bug has not already been reported, you should file a new bug report.
+Before submitting a bug, you should look at the [existing bug reports](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+archived%3Afalse+user%3ANitrux+) and [release notes](https://sourceforge.net/p/nitruxos/news/) to verify the bug hasn’t been reported already. If the bug has not already been reported, you should file a new bug report.
 
 It's important that you specify three things:
 
