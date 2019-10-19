@@ -26,3 +26,5 @@ Some extra options you can use to make your bug report more complete:
 1. This bug is a security vulnerability: Please check this only if your bug report describes behavior that could be exploited to compromise your security or safety, as well as cause issues such as identity theft or "hi-jacking."
 
 2. Include an attachment: add supporting attachments to explain or help others reproduce the bug. This might consist of a screenshot, a video capture of the problem, or a sample document that triggers the fault.
+
+©2019 Nitrux Latinoamericana S.C.
