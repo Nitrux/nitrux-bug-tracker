@@ -6,7 +6,7 @@ Nitrux uses GitHub to keep track of bugs and their fixes.
 You should not file a bug if you are:
 
 1. Requesting new software.
-2. _Discussing features, existing policy, proposing features, or ideas. If you are a Patreon Supporter please head over [here](https://github.com/Nitrux/patreon-feature-requests) instead._
+2. _Discussing features, existing policy, proposing features, or ideas.
 3. Filing a bug against software not provided by Nitrux.
 
 ## Submitting a Bug
