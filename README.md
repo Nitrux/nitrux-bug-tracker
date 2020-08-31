@@ -11,7 +11,7 @@ You should not file a bug if you are:
 
 ## Submitting a Bug
 
-Before submitting a bug, you should look at the [existing bug reports](https://github.com/issues?utf8=%E2%9C%93&q=is%3Aopen+is%3Aissue+archived%3Afalse+user%3ANitrux+) and [release notes](https://nxos.org/changelog) to verify the bug hasn't been reported already. If the bug has not previously been reported, you should file a new bug report.
+Before submitting a bug, you should look at the [existing bug reports](https://github.com/Nitrux/nitrux-bug-tracker/issues) and [release notes](https://nxos.org/changelog) to verify the bug hasn't been reported already. If the bug has not previously been reported, you should file a new bug report.
 
 You must specify three things:
 
