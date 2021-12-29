@@ -11,7 +11,7 @@ You should not file a bug if you are:
 
 #### Submitting a bug report
 
-Before submitting a bug, you should look at the [existing feature requests](https://github.com/Nitrux/nitrux-bug-tracker/issues) and [known issues](https://nxos.org/known-issues) to verify the bug hasn't been reported already. If the bug has not been reported, you should file a new bug report.
+Before submitting a bug, you should look at the [existing bug reports](https://github.com/Nitrux/nitrux-bug-tracker/issues) and [known issues](https://nxos.org/known-issues) to verify the bug hasn't been reported already. If the bug has not been reported, you should file a new bug report.
 
 You must specify three things:
 
@@ -34,7 +34,7 @@ Nitrux uses GitHub to keep track of feature requests.
 
 #### Submitting a bug report
 
-Before submitting a feature request, you should look at the [existing bug reports](https://github.com/Nitrux/nitrux-bug-tracker/issues) and [release announcements](https://nxos.org/changelog) to verify the feature hasn't been requested already. If the feature has not been request, you should file a new feature request.
+Before submitting a feature request, you should look at the [existing feature requests](https://github.com/Nitrux/nitrux-bug-tracker/issues) and [release announcements](https://nxos.org/changelog) to verify the feature hasn't been requested already. If the feature has not been request, you should file a new feature request.
 
 #### How do I write a good feature request?
 
