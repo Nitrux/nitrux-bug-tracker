@@ -1,6 +1,6 @@
 ---
 name: "🚀 Feature request"
-about: Suggest an idea for improving this software
+about: Suggest an idea or feature
 title: ''
 labels: 'type:Enhancement'
 assignees: ''
