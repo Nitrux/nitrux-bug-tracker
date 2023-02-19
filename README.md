@@ -45,7 +45,7 @@ Before submitting a feature request, you should look at the [existing feature re
 #### What should I not do?
 
 1. Avoid being vague about the benefits (or possible drawbacks).
-2. Don't leave the specifics up to the community. While this is your feature request, it should clearly outline the scope. Unclear requests may be subject to closure as being too broad or... unclear.
+2. Don't leave the specifics up to the community. While this is your feature requested, it should clearly outline the scope. Unclear requests may be subject to closure as being too broad or... unclear.
 3. Avoid emotional discussions or motivations.
 4. Don't ask for the moon; be realistic.
 5. Filing a feature request against software not provided by Nitrux.
