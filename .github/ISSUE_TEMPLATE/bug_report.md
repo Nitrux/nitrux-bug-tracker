@@ -33,7 +33,7 @@ If applicable, could you add screenshots to help explain your problem?
 
 **Additional context**
 
-Please feel free to add any other context about the problem here.
+Please don't hesitate to add any other context about the problem here.
 
 **hw-probe URL**
 
