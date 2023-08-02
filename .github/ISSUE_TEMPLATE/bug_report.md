@@ -33,8 +33,8 @@ If applicable, could you add screenshots to help explain your problem?
 
 **Additional context**
 
-Please don't hesitate to add any other context about the problem here.
+Please feel free to add any other context about the problem here.
 
 **hw-probe URL**
 
-if the issue concerns hardware, please download [hw-probe](https://linux-hardware.org/?view=howto), run it and and add the URL link.
+If the issue concerns hardware, use `hw-probe`, run it using the following command `sudo -E hw-probe -all -upload`, and add the URL link.
