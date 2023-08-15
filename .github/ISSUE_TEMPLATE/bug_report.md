@@ -6,11 +6,10 @@ about: Create a report to help us improve
 
 **Describe the bug**
 
-A clear and concise description of what the bug is.
+Ensure to include a _clear and concise description_ of what the bug is. 
 
-**To Reproduce**
+**Steps to reproduce the bug**
 
-Steps to reproduce the behavior:
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
@@ -18,23 +17,44 @@ Steps to reproduce the behavior:
 
 **Expected behavior**
 
-A clear and concise description of what you expected to happen.
+Describe what you expected to happen when the bug occurred.
 
 **Screenshots**
 
-If applicable, could you add screenshots to help explain your problem?
+Include screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
+**Videos**
 
- - OS 
- - Browser
- - Version
- - etc.
+If images are not enough, include videos to help explain your problem.
+ - GitHub doesn't support uploading videos, so please use video sharing like YouTube or Vimeo, etc.
 
 **Additional context**
 
-Please don't hesitate to add any other context about the problem here.
+Ensure to add any other context about the problem here, including what solutions you've tried already.
 
-**hw-probe URL**
+**OS version and Desktop information**
+
+Open System Settings, go to About System and click "Copy to clipboard in English," and paste the content here.
+
+**Hardware Information using hw-probe**
 
 If the issue concerns hardware, use `hw-probe` (if it's not available, please download [hw-probe](https://linux-hardware.org/?view=howto)), run it using the following command `sudo -E hw-probe -all -upload`, and add the URL link.
+
+**System logs**
+
+Include the following log files to your issue.
+
+- `/var/log/rc.log`
+- `/var/log/dmesg`
+- `/var/log/boot.log`
+- `/var/log/syslog`
+
+For problems during the installation with Calamares, include the following additional file. 
+
+> Please note that this file is only available in the Live session.
+
+- `~/.cache/calamares/session.log`
+
+**Partition information**
+
+Open Partition Manager, highlight the device where Calamares installed distribution and take a screenshot.
