@@ -58,3 +58,5 @@ For problems during the installation with Calamares, include the following addit
 **Partition information**
 
 Open Partition Manager, highlight the device where Calamares installed distribution and take a screenshot.
+
+- If a screenshot is not possible take a photo.
