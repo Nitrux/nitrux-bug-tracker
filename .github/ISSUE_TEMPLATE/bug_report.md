@@ -50,6 +50,13 @@ Include the following log files to your issue.
 - `/var/log/boot.log`
 - `/var/log/syslog`
 
+**Other logs**
+
+Include the following log files to your issue.
+
+- `~/.local/share/sddm/wayland-session.log`
+- `~/.local/share/sddm/xorg-session.log`
+
 For problems during the installation with Calamares, include the following additional file. 
 
 > Please note that this file is only available in the Live session.
