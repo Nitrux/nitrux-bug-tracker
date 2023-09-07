@@ -12,7 +12,7 @@ You should not file a bug if you are:
 
 #### Submitting a bug report
 
-Before submitting a bug, you should look at the existing bug reports and known issues to verify the bug hasn't been reported already. You should file a new bug report if the bug has not been reported.
+Before submitting a bug, you should look at the [existing bug reports]([url](https://github.com/Nitrux/nitrux-bug-tracker/issues)) and [known issues]([url](https://nxos.org/known-issues)) to verify the bug hasn't been reported already. You should file a new bug report if the bug has not been reported.
 
 You must specify three things:
 
