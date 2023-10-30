@@ -26,7 +26,7 @@ Include screenshots to help explain your problem.
 **Videos**
 
 If images are not enough, include videos to help explain your problem.
- - GitHub doesn't support uploading videos, so please use video sharing like YouTube or Vimeo, etc. and include the URL.
+ - GitHub doesn't support uploading videos, so please use video sharing like YouTube or Vimeo, etc., and include the URL.
 
 **Additional context**
 
@@ -34,8 +34,8 @@ Ensure to add any other context about the problem here, including what solutions
 
 **OS version and Desktop information**
 
-Open System Settings, go to About System and click "Copy to clipboard in English," and paste the content here.
- - If using System Settings is not possible, use `hw-probe` to provide this information.
+Open System Settings, go to About System, click "Copy to clipboard in English," and paste the content here.
+ - If using System Settings is impossible, use `hw-probe` to provide this information.
 
 **Hardware Information using hw-probe**
 
@@ -65,6 +65,6 @@ For problems during the installation with Calamares, include the following addit
 
 **Partition information**
 
-Open Partition Manager, highlight the device where Calamares installed distribution and take a screenshot.
+Open Partition Manager, highlight the device where Calamares installed distribution, and take a screenshot.
 
 - If a screenshot is not possible, take a photo.
