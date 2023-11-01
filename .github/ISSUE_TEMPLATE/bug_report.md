@@ -48,6 +48,7 @@ For problems with the distribution initialization process, include the following
 - `/var/log/rc.log`
 - `/var/log/dmesg`
 - `/var/log/boot.log`
+- `/var/log/kern.log`
 
 **System logs**
 
