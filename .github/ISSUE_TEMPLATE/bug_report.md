@@ -41,6 +41,16 @@ Open System Settings, go to About System, click "Copy to clipboard in English," 
 
 If the issue concerns hardware, use `hw-probe` (if it's not available, please download [hw-probe](https://linux-hardware.org/?view=howto)), run it using the following command `sudo -E hw-probe -all -upload`, and add the URL link.
 
+**Installation logs**
+
+For problems during the installation with Calamares, include the following log file. 
+
+> Please note that this file is only available in the Live session.
+
+- `~/.cache/calamares/session.log`
+
+For problems regarding partitioning, run the command `sudo lsblk > lsblk.txt` and include the generated file.
+
 **Boot logs**
 
 For problems with the distribution initialization process, include the following log files.
@@ -69,16 +79,6 @@ Additionally, include the following log file according to the active graphical s
 
 - For Plasma X11
   - `~/.local/share/sddm/xorg-session.log`
-
-**Installation logs**
-
-For problems during the installation with Calamares, include the following log file. 
-
-> Please note that this file is only available in the Live session.
-
-- `~/.cache/calamares/session.log`
-
-For problems regarding partitioning, run the command `sudo lsblk > lsblk.txt` and include the generated file.
 
 ---
 
