@@ -4,6 +4,8 @@ about: Create a report to help us improve
 
 ---
 
+# Issue Description
+
 **Describe the bug**
 
 Ensure to include a _clear and concise description_ of what the bug is. 
@@ -40,6 +42,8 @@ Open System Settings, go to About System, click "Copy to clipboard in English," 
 **Hardware Information using hw-probe**
 
 If the issue concerns hardware, use `hw-probe` (if it's not available, please download [hw-probe](https://linux-hardware.org/?view=howto)), run it using the following command `sudo -E hw-probe -all -upload`, and add the URL link.
+
+# Logs
 
 **Installation logs**
 
