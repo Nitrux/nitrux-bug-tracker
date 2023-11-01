@@ -2,12 +2,13 @@
 name: "🚀 Feature request"
 about: Suggest an idea or feature
 title: ''
-labels: 'type:Enhancement'
-assignees: ''
+labels: 'feature-request'
 
 ---
 
-### Is your proposal related to a problem?
+# Feature Request
+
+**Is your proposal related to a problem?**
 
 <!--
   Provide a clear and concise description of what the problem is.
@@ -16,7 +17,7 @@ assignees: ''
 
 (Write your answer here.)
 
-### Describe the solution you'd like
+**Describe the solution you'd like**
 
 <!--
   Provide a clear and concise description of what you want to happen.
@@ -24,7 +25,7 @@ assignees: ''
 
 (Describe your proposed solution here.)
 
-### Describe alternatives you've considered
+**Describe alternatives you've considered**
 
 <!--
   Let us know about other solutions you've tried or researched.
@@ -32,7 +33,7 @@ assignees: ''
 
 (Write your answer here.)
 
-### Additional context
+**Additional context**
 
 <!--
   Is there anything else you can add about the proposal?
@@ -40,3 +41,7 @@ assignees: ''
 -->
 
 (Write your answer here.)
+
+---
+
+_*Disclaimer*: Please do not create feature requests for software that Nitrux does not develop._
