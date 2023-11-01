@@ -49,7 +49,7 @@ For problems regarding partitioning, open Partition Manager, highlight the devic
 
 **Boot logs**
 
-For problems with the distribution initialization process, include the following log files for your issue.
+For problems with the distribution initialization process, include the following log files.
 
 - `/var/log/rc.log`
 - `/var/log/dmesg`
@@ -57,17 +57,23 @@ For problems with the distribution initialization process, include the following
 
 **System logs**
 
-For problems with the distribution (overall), include the following log files.
+For problems with the distribution (overall), include the following log file.
 
 - `/var/log/syslog`
 
 **Desktop logs**
 
-For problems with the graphical session, include the following log files.
+For problems with the graphical session, include the following log file.
 
-- `~/.local/share/sddm/wayland-session.log`
-- `~/.local/share/sddm/xorg-session.log`
 - `~/.desktop-config.log`
+
+Additionally, include the following log file according to the active graphical session.
+
+- For Plasma Wayland
+  - `~/.local/share/sddm/wayland-session.log`
+
+- For Plasma X11
+  - `~/.local/share/sddm/xorg-session.log`
 
 **Installation logs**
 
