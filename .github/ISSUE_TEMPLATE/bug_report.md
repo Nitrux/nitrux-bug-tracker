@@ -41,12 +41,6 @@ Open System Settings, go to About System, click "Copy to clipboard in English," 
 
 If the issue concerns hardware, use `hw-probe` (if it's not available, please download [hw-probe](https://linux-hardware.org/?view=howto)), run it using the following command `sudo -E hw-probe -all -upload`, and add the URL link.
 
-**Partition information**
-
-For problems regarding partitioning, open Partition Manager, highlight the device where Calamares installed distribution, and take a screenshot.
-
-- If a screenshot is not possible, take a photo.
-
 **Boot logs**
 
 For problems with the distribution initialization process, include the following log files.
@@ -82,6 +76,8 @@ For problems during the installation with Calamares, include the following log f
 > Please note that this file is only available in the Live session.
 
 - `~/.cache/calamares/session.log`
+
+For problems regarding partitioning, run the command `sudo lsblk > lsblk.txt` and include the generated file.
 
 ---
 
