@@ -41,30 +41,42 @@ Open System Settings, go to About System, click "Copy to clipboard in English," 
 
 If the issue concerns hardware, use `hw-probe` (if it's not available, please download [hw-probe](https://linux-hardware.org/?view=howto)), run it using the following command `sudo -E hw-probe -all -upload`, and add the URL link.
 
-**System logs**
+**Partition information**
 
-Include the following log files to your issue.
+For problems regarding partitioning, open Partition Manager, highlight the device where Calamares installed distribution, and take a screenshot.
+
+- If a screenshot is not possible, take a photo.
+
+**Boot logs**
+
+For problems with the distribution initialization process, include the following log files for your issue.
 
 - `/var/log/rc.log`
 - `/var/log/dmesg`
 - `/var/log/boot.log`
+
+**System logs**
+
+For problems with the distribution (overall), include the following log files.
+
 - `/var/log/syslog`
 
-**Other logs**
+**Desktop logs**
 
-Include the following log files to your issue.
+For problems with the graphical session, include the following log files.
 
 - `~/.local/share/sddm/wayland-session.log`
 - `~/.local/share/sddm/xorg-session.log`
+- `~/.desktop-config.log`
 
-For problems during the installation with Calamares, include the following additional file. 
+**Installation logs**
+
+For problems during the installation with Calamares, include the following log file. 
 
 > Please note that this file is only available in the Live session.
 
 - `~/.cache/calamares/session.log`
 
-**Partition information**
+---
 
-Open Partition Manager, highlight the device where Calamares installed distribution, and take a screenshot.
-
-- If a screenshot is not possible, take a photo.
+_*Disclaimer*: Please report issues to the appropriate developer(s). Nitrux is a Linux distribution that comprises dozens of Free and Open Source Software projects._
