@@ -10,7 +10,7 @@ labels: ''
 
 **Describe the bug**
 
-Ensure to include a _clear and concise description_ of what the bug is. 
+Please make sure to include a clear and concise description of what the bug is. 
 
 **Steps to reproduce the bug**
 
@@ -21,11 +21,11 @@ Ensure to include a _clear and concise description_ of what the bug is.
 
 **Expected behavior**
 
-Describe what you expected to happen when the bug occurred.
+Could you describe what you expected to happen when the bug occurred?
 
 **Screenshots**
 
-Include screenshots to help explain your problem.
+Could you include screenshots to help explain your problem?
 
 **Videos**
 
@@ -34,7 +34,7 @@ If images are not enough, include videos to help explain your problem.
 
 **Additional context**
 
-Ensure to add any other context about the problem here, including what solutions you've tried already.
+Please add any other context about the problem here, including what solutions you've tried already.
 
 **OS version and Desktop information**
 
@@ -43,15 +43,21 @@ Open System Settings, go to About System, click "Copy to clipboard in English," 
 
 **Hardware Information using hw-probe**
 
-If the issue concerns hardware, use `hw-probe` (if it's not available, please download [hw-probe](https://linux-hardware.org/?view=howto)), run it using the following command `sudo -E hw-probe -all -upload`, and add the URL link.
+If the issue concerns hardware, use `hw-probe` (if it's not available, please download [hw-probe](https://linux-hardware.org/?view=howto)), run it using the following command 
+
+```
+sudo -E hw-probe -all -upload
+```
+
+And add the URL link.
 
 # Logs
 
 **Installation logs**
 
-For problems during the installation with Calamares, include the following log file. 
+Please include the following log file for problems during the installation with Calamares. 
 
-> Please note that this file is only available in the Live session.
+I'd like to point out that this file is only available in the Live session.
 
 - `~/.cache/calamares/session.log`
 
@@ -59,7 +65,7 @@ For problems regarding partitioning, run the command `sudo lsblk > lsblk.txt` an
 
 **Boot logs**
 
-For problems with the distribution initialization process, include the following log files.
+Please include the following log files for problems with the distribution initialization process.
 
 - `/var/log/rc.log`
 - `/var/log/dmesg`
@@ -68,17 +74,17 @@ For problems with the distribution initialization process, include the following
 
 **System logs**
 
-For problems with the distribution (overall), include the following log file.
+Include the following log file for problems with the distribution (overall).
 
 - `/var/log/syslog`
 
 **Desktop logs**
 
-For problems with the graphical session, include the following log file.
+For problems with the graphical session, please include the following log file.
 
 - `~/.desktop-config.log`
 
-Additionally, include the following log file according to the active graphical session.
+Also, could you include the following log file for the active graphical session?
 
 - For Plasma Wayland
   - `~/.local/share/sddm/wayland-session.log`
@@ -88,4 +94,4 @@ Additionally, include the following log file according to the active graphical s
 
 ---
 
-_*Disclaimer*: Please report issues to the appropriate developer(s). Nitrux is a Linux distribution that comprises dozens of Free and Open Source Software projects._
+_*Disclaimer*: Please report issues to the appropriate developer(s). Nitrux is a Linux distribution that comprises dozens of free and open-source software projects._
