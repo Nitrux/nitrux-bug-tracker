@@ -7,8 +7,9 @@ Nitrux uses GitHub to keep track of bugs and their fixes.
 You should not file a bug if you are:
 
 1. Requesting new software.
-2. Do not discuss features and existing policies or propose features or ideas. For such circumstances, please add a feature request.
-3. Filing a bug against software not maintained or developed by Nitrux.
+2. Filing a bug against software not maintained or developed by Nitrux.
+
+Additionally, do not discuss features and existing policies or propose features or ideas. For such circumstances, please add a [feature request](#how-to-make-a-feature-request).
 
 #### Submitting a bug report
 
