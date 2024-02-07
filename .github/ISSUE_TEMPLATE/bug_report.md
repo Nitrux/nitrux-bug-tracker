@@ -57,7 +57,7 @@ And add the URL link.
 
 Please include the following log file for problems during the installation with Calamares. 
 
-I'd like to point out that this file is only available in the Live session.
+The file below is only available in the Live session.
 
 - `~/.cache/calamares/session.log`
 
@@ -80,7 +80,7 @@ Include the following log file for problems with the distribution (overall).
 
 **Desktop logs**
 
-For problems with the graphical session, please include the following log file.
+If you have problems with the graphical session, please include the following log file.
 
 - `~/.desktop-config.log`
 
