@@ -9,7 +9,7 @@ You should not file a bug if you are:
 1. Requesting new software.
 2. Filing a bug against software not maintained or developed by Nitrux.
 
-Additionally, do not discuss features and existing policies or propose features or ideas. Please add a [feature request](#how-to-make-a-feature-request) for such circumstances.
+Also, please don't discuss features and existing policies or propose other features or ideas. For such circumstances, please add a [feature request](#how-to-make-a-feature-request).
 
 #### Submitting a bug report
 
@@ -35,7 +35,7 @@ Nitrux uses GitHub to keep track of feature requests.
 
 #### Submitting a feature request
 
-Before submitting a feature request, you should look at the [existing feature requests](https://github.com/Nitrux/nitrux-bug-tracker/issues) and [release announcements](https://nxos.org/changelog) to verify the feature hasn't been requested already. You should file a new feature request if the feature has not been requested.
+Before submitting a feature request, you should look at the [existing feature requests](https://github.com/Nitrux/nitrux-bug-tracker/issues) and [release announcements](https://nxos.org/changelog) to verify that the feature hasn't already been requested. If it hasn't, you should file a new feature request.
 
 #### How do I write a reasonable feature request?
 
