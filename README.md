@@ -8,10 +8,10 @@ You should not file a bug report if you want to:
 
 1. Request new software.
     - For such circumstances, please add a [feature request](#how-to-make-a-feature-request).
-3. Filing a bug against software not maintained or developed by Nitrux, unless it's specific to Nitrux.
+2. Filing a bug against software not maintained or developed by Nitrux, unless it's specific to Nitrux.
     - For example, only open a bug report if GIMP crashes only in Nitrux. If it's a general crash due to a bug in GIMP, don't open a bug report here.
     - Also, please open a bug report in this repository if the Maui Apps have issues, or if a setting we apply is causing an adverse effect.
-5. Discuss features or existing policies, or propose new features or ideas.
+3. Discuss features or existing policies, or propose new features or ideas.
     - For such circumstances, please open a [discussion](https://github.com/orgs/Nitrux/discussions).
 
 #### Submitting a bug report
@@ -22,14 +22,14 @@ You must specify three things:
 
 1. What do you expect to happen?
 2. What happened?
-3. If possible, a minimal series of steps is necessary to make it happen, where level 1 is "start the program."
+3. If possible, provide a minimal series of steps necessary to make it happen, where level 1 is "start the program."
 
 #### Additional information about the bug
 
 Some extra options you can use to make your bug report more complete:
 
 1. This bug is a security vulnerability: Please check this only if your bug report describes behavior that a malicious actor could exploit to compromise your security or safety and cause issues such as identity theft or "hi-jacking."
-2. Include an attachment: Add supporting attachments to explain or help others reproduce the bug. An attachment might include a screenshot, a video capture of the problem, or a sample document that triggers the fault.
+2. Add attachments: Include screenshots, video captures, or sample documents that help explain or reproduce the bug.
 
 ----
 
