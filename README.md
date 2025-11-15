@@ -4,16 +4,19 @@ Nitrux uses GitHub to keep track of bugs and their fixes.
 
 #### Determine if the bug is a bug
 
-You should not file a bug if you are:
+You should not file a bug report if you want to:
 
-1. Requesting new software.
-2. Filing a bug against software not maintained or developed by Nitrux.
-
-Also, please don't discuss features and existing policies or propose other features or ideas. For such circumstances, please add a [feature request](#how-to-make-a-feature-request).
+1. Request new software.
+    - For such circumstances, please add a [feature request](#how-to-make-a-feature-request).
+3. Filing a bug against software not maintained or developed by Nitrux.
+    - For example, do not open a bug report in this bug tracker if you've experienced a crash with GIMP.
+    - On the contrary, open a bug report in this repository if the Maui Apps have issues, or if a setting we apply is causing an adverse effect.
+5. Discuss features or existing policies, or propose new features or ideas.
+    - For such circumstances, please open a [discussion](https://github.com/orgs/Nitrux/discussions).
 
 #### Submitting a bug report
 
-Before submitting a bug, you should look at the [existing bug reports]([url](https://github.com/Nitrux/nitrux-bug-tracker/issues)) and [known issues]([url](https://nxos.org/known-issues)) to verify the bug hasn't been reported already. You should file a new bug report if the bug has not been reported.
+Before submitting a bug, you should look at the [existing bug reports]([url](https://github.com/Nitrux/nitrux-bug-tracker/issues)) and [known issues]([url](https://nxos.org/known-issues)) to verify nobody else has reported it.
 
 You must specify three things:
 
@@ -35,7 +38,7 @@ Nitrux uses GitHub to keep track of feature requests.
 
 #### Submitting a feature request
 
-Before submitting a feature request, you should look at the [existing feature requests](https://github.com/Nitrux/nitrux-bug-tracker/issues) and [release announcements](https://nxos.org/changelog) to verify that the feature hasn't already been requested. If it hasn't, you should file a new feature request.
+Before submitting a feature request, you should look at the [existing feature requests](https://github.com/Nitrux/nitrux-bug-tracker/issues) and [release announcements](https://nxos.org/changelog) to verify that nobody else has requested it.
 
 #### How do I write a reasonable feature request?
 
@@ -46,7 +49,7 @@ Before submitting a feature request, you should look at the [existing feature re
 #### What should I not do?
 
 1. Avoid being vague about the benefits (or possible drawbacks).
-2. Don't leave the specifics up to the community. While this is your feature request, it should clearly outline the scope of the request. Unclear requests may be subject to closure as being too broad or unclear.
+2. Don't leave the specifics up to the community. While this is your feature request, it should clearly outline the scope of the request. Unclear requests may be closed as too broad or unclear.
 3. Avoid emotional discussions or motivations.
 4. Don't ask for the moon; be realistic.
 5. Avoid filing a feature request against software not maintained or developed by Nitrux.
