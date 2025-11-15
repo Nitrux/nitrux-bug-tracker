@@ -28,8 +28,8 @@ You must specify three things:
 
 Some extra options you can use to make your bug report more complete:
 
-This bug is a security vulnerability: Please check this only if your bug report describes behavior that a malicious actor could exploit to compromise your security or safety and cause issues such as identity theft or "hi-jacking."
-Include an attachment: Add supporting attachments to explain or help others reproduce the bug. An attachment might include a screenshot, a video capture of the problem, or a sample document that triggers the fault.
+1. This bug is a security vulnerability: Please check this only if your bug report describes behavior that a malicious actor could exploit to compromise your security or safety and cause issues such as identity theft or "hi-jacking."
+2. Include an attachment: Add supporting attachments to explain or help others reproduce the bug. An attachment might include a screenshot, a video capture of the problem, or a sample document that triggers the fault.
 
 ----
 
@@ -49,9 +49,11 @@ Before submitting a feature request, you should look at the [existing feature re
 #### What should I not do?
 
 1. Avoid being vague about the benefits (or possible drawbacks).
-2. Don't leave the specifics up to the community. While this is your feature request, it should clearly outline the scope of the request. Unclear requests may be closed as too broad or unclear.
+2. Don't leave the specifics up to the community. While this is your feature request, it should clearly outline what you think. Unclear requests may be closed as too broad or unclear.
 3. Avoid emotional discussions or motivations.
 4. Don't ask for the moon; be realistic.
 5. Avoid filing a feature request against software not maintained or developed by Nitrux.
+    - For example, Nitrux can't add a new feature to GIMP like tilt-shift effects
+    - On the contrary, Nitrux can add a missing driver or firmware file, CLI utility, or (put into consideration) another GUI application to the default selection.
 
 ©2021 Nitrux Latinoamericana S.C.
