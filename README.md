@@ -8,9 +8,10 @@ You should not file a bug report if you want to:
 
 1. Request new software.
     - For such circumstances, please add a [feature request](#how-to-make-a-feature-request).
-3. Filing a bug against software not maintained or developed by Nitrux.
+3. Filing a bug against software not maintained or developed by Nitrux, unless it's specific to Nitrux.
     - For example, do not open a bug report in this bug tracker if you've experienced a crash with GIMP.
-    - On the contrary, open a bug report in this repository if the Maui Apps have issues, or if a setting we apply is causing an adverse effect.
+    - On the contrary, open a bug report if GIMP only crashes in Nitrux.
+    - Also, please open a bug report in this repository if the Maui Apps have issues, or if a setting we apply is causing an adverse effect.
 5. Discuss features or existing policies, or propose new features or ideas.
     - For such circumstances, please open a [discussion](https://github.com/orgs/Nitrux/discussions).
 
