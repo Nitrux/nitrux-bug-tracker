@@ -38,9 +38,11 @@ Please add any additional context about the problem here, including the solution
 
 **OS version and Desktop information**
 
-Open Station and run `inxi -F`, otherwise, use `hw-probe` to provide this information.
+Open Station and run `inxi -s` to provide this information.
 
 **Hardware Information using hw-probe**
+
+Open Station and run `inxi -F`, otherwise, use `hw-probe` to provide this information.
 
 If the issue concerns hardware, use `hw-probe` (if it's not available, please download [hw-probe](https://linux-hardware.org/?view=howto)), run it using the following command 
 
