@@ -91,7 +91,7 @@ Typically, using `$command > command.log` pipes the command's output to a text f
 Some software does not support doing this, and the only option is to do the following:
 
 - Run the software from the terminal
-- Select the output using the mouse and paste it in the file manager on any directory
+- Select the output using the mouse and paste it into the file manager in any directory
 
 ---
 
