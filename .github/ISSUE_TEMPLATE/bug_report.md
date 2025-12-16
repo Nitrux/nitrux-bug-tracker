@@ -60,11 +60,11 @@ The file below is only available in the Live session.
 
 - `~/.cache/calamares/session.log`
 
-For problems regarding partitioning, run the command `sudo lsblk > lsblk.txt` and include the generated file.
+For partitioning issues, run the command `sudo lsblk > lsblk.txt` and include the generated file.
 
 **Boot logs**
 
-Please include the following log files for problems with the distribution initialization process.
+Please include the following log files to help diagnose problems with the distribution initialization process.
 
 - `/var/log/rc.log`
 - `/var/log/boot.log`
