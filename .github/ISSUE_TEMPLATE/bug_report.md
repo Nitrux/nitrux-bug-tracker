@@ -38,7 +38,7 @@ Please add any additional context about the problem here, including the solution
 
 **OS version and Desktop information**
 
-Open Station and run `inxi -s` to provide this information.
+Open Station and run `inxi -S` to provide this information.
 
 **Hardware Information using hw-probe**
 
