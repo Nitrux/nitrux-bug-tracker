@@ -82,6 +82,17 @@ Include the following log file for problems with the distribution (overall).
 - `/var/log/overlayroot-audit.log`
 - `/var/log/kern.log`
 
+**Other logs**
+
+Depending on the software, some may provide their own logs, while others may print their activity to the terminal.
+
+Typically, using `$command > command.log` pipes the command's output to a text file.
+
+Some software does not support doing this, and the only option is to do the following:
+
+- Run the software from the terminal
+- Select the output using the mouse and paste it in the file manager on any directory
+
 ---
 
 _*Disclaimer*: Please report issues to the appropriate developer(s). Nitrux is a Linux distribution that comprises dozens of free and open-source software projects._
