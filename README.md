@@ -58,7 +58,7 @@ Before submitting a feature request, you should look at the [existing feature re
 - **Do not file requests for upstream software**.
     - For example: Nitrux cannot add "tilt-shift effects" to GIMP; that is a request for GIMP developers.
     - However, Nitrux can add missing drivers, firmware, CLI utilities, or consider adding a new GUI application to the default selection.
-- **Do not use the Bug Tracker for general ideas or policy debates**.
+- **Do not use the this repository for general ideas or policy debates**.
     - For such circumstances, please open a [discussion](https://github.com/orgs/Nitrux/discussions).
 
 ----
