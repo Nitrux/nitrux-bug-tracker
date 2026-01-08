@@ -4,7 +4,7 @@ Nitrux uses GitHub to keep track of bugs and their fixes.
 
 # Submitting a Bug Report
 
-Before submitting a bug, you should look at the [existing bug reports]([url](https://github.com/Nitrux/nitrux-bug-tracker/issues)) and [known issues]([url](https://nxos.org/known-issues)) to verify nobody else has reported it or it's not already fixed.
+Before submitting a bug, you should look at the [existing bug reports](https://github.com/Nitrux/nitrux-bug-tracker/issues) and [known issues](https://nxos.org/known-issues) to verify nobody else has reported it or it's not already fixed.
 
 1. Go to the Issues tab.
 2. Click the New Issue button.
@@ -15,7 +15,7 @@ Before submitting a bug, you should look at the [existing bug reports]([url](htt
 > Open Issues without activity after 3 days will be considered stale. And issues without activity after 7 days will be automatically closed.
 
 > [!NOTE]
-> Open Issues without the necessary information will be labeled as: ![](https://img.shields.io/github/labels/Nitrux/nitrux-bug-tracker/missing-info). And, open Issues regarding virtualizing Nitrux will be labeled as: ![](https://img.shields.io/github/labels/Nitrux/nitrux-bug-tracker/wontfix) 
+> We use labels to communicate the state of a report. Maintainers will apply the appropriate labels to any issue—including marking incomplete reports or unsupported use cases (like virtualization) as .
 
 ## Determine if the bug is a bug
 
