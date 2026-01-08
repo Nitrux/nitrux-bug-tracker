@@ -15,7 +15,7 @@ Before submitting a bug, you should look at the [existing bug reports](https://g
 > Open Issues without activity after 3 days will be considered stale. And issues without activity after 7 days will be automatically closed.
 
 > [!NOTE]
-> We use labels to communicate the state of a report. Maintainers will apply the appropriate labels to any issue—including marking incomplete reports or unsupported use cases (like virtualization) as .
+> We use labels to communicate the state of a report. Maintainers will apply the appropriate labels to any issue—including marking incomplete reports or unsupported use cases (like virtualization).
 
 ## Determine if the bug is a bug
 
