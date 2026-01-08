@@ -18,13 +18,13 @@ Before submitting a bug, you should look at the [existing bug reports](https://g
 
 Please do not file a bug report to:
 
-- Request new software.
+- **Request new software**.
   - For such circumstances, please submit a [feature request](#how-to-make-a-feature-request).
-- Report bugs in upstream software (unless the issue is unique to Nitrux).
+- **Report bugs in upstream software** (unless the issue is unique to Nitrux).
   - Example: If GIMP crashes on Arch, Fedora, and Nitrux, do not report it here. That is an upstream bug.
   - Exception: If GIMP works elsewhere but crashes only on Nitrux, please report it here.
   - Note: Always report issues with Maui Apps or Nitrux-specific configurations here.
-- Discuss policies or propose general ideas.
+- **Discuss policies or propose general ideas**.
     - For such circumstances, please open a [discussion](https://github.com/orgs/Nitrux/discussions).
 
 > [!NOTE]
@@ -45,20 +45,20 @@ Before submitting a feature request, you should look at the [existing feature re
 
 ## How do I write a reasonable feature request?
 
-- Be specific. Define exactly what you want and why.
-- Visualize it. Include images or mockups that make the request clear.
-- Back it up. Reference factual content or use cases to support your request.
+- **Be specific**. Define exactly what you want and why.
+- **Visualize it**. Include images or mockups that make the request clear.
+- **Back it up**. Reference factual content or use cases to support your request.
 
 ## What should I not do?
 
-- Don't be vague about the benefits or possible drawbacks.
-- Don't rely on the community to figure it out. While this is your request, you must clearly outline the implementation or goal. Unclear requests may be closed.
-- Avoid emotional arguments. Stick to technical or practical reasons.
-- Be realistic. Keep the scope of the request achievable.
-- Do not file requests for upstream software.
+- **Don't be vague** about the benefits or possible drawbacks.
+- **Don't rely on the community to figure it out**. While this is your request, you must clearly outline the implementation or goal. Unclear requests may be closed.
+- **Avoid emotional arguments**. Stick to technical or practical reasons.
+- **Be realistic**. Keep the scope of the request achievable.
+- **Do not file requests for upstream software**.
     - For example: Nitrux cannot add "tilt-shift effects" to GIMP; that is a request for GIMP developers.
     - However, Nitrux can add missing drivers, firmware, CLI utilities, or consider adding a new GUI application to the default selection.
-- Do not use the Bug Tracker for general ideas or policy debates.
+- **Do not use the Bug Tracker for general ideas or policy debates**.
     - For such circumstances, please open a [discussion](https://github.com/orgs/Nitrux/discussions).
 
 ----
