@@ -1,0 +1,39 @@
+name: Delete Expired Issues
+on:
+  schedule:
+    - cron: "0 7 * * *"
+
+jobs:
+  delete-issues:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Delete old expired issues
+        env:
+          GH_TOKEN: ${{ secrets.DELETE_ISSUE_TOKEN }} 
+          OWNER: ${{ github.repository_owner }}
+          REPO: ${{ github.event.repository.name }}
+        run: |
+          # 1. Calculate the cutoff date (3 days ago)
+          CUTOFF_DATE=$(date -d "3 days ago" +%Y-%m-%d)
+          
+          echo "Searching for issues closed before $CUTOFF_DATE with label 'expired'..."
+
+          # 2. Search for issues
+          # Criteria: Closed, Label=expired, Closed Date < Cutoff
+          ISSUES_TO_DELETE=$(gh search issues \
+            --repo "$OWNER/$REPO" \
+            --state closed \
+            --label "expired" \
+            --closed "<$CUTOFF_DATE" \
+            --json number \
+            --jq '.[].number')
+
+          # 3. Delete them
+          if [ -z "$ISSUES_TO_DELETE" ]; then
+            echo "No expired issues found to delete."
+          else
+            for id in $ISSUES_TO_DELETE; do
+              echo "Deleting issue #$id..."
+              gh issue delete "$id" --yes
+            done
+          fi
