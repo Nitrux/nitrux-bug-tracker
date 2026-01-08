@@ -1,0 +1,103 @@
+name: Issue QA
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  analyze-effort:
+    if: github.actor != 'UriHerrera'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Analyze Content Similarity
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            
+            // 1. Identify Template
+            const bugTemplatePath = '.github/ISSUE_TEMPLATE/bug_report.md';
+            const featureTemplatePath = '.github/ISSUE_TEMPLATE/feature_request.md';
+            const issueBody = context.payload.issue.body || "";
+            
+            function getTemplateContent(filePath) {
+              if (!fs.existsSync(filePath)) return null;
+              return fs.readFileSync(filePath, 'utf8').replace(/^---\n[\s\S]*?\n---\n/, '').trim();
+            }
+
+            let templateText = "";
+            if (issueBody.includes("Describe the bug") || issueBody.includes("System Information")) {
+                templateText = getTemplateContent(bugTemplatePath);
+            } else if (issueBody.includes("Feature Goal")) {
+                templateText = getTemplateContent(featureTemplatePath);
+            }
+
+            if (!templateText) {
+                console.log("No matching template found. Skipping check.");
+                return;
+            }
+
+            // 2. Logic: Compare Lines
+            const splitLines = (text) => text.split(/\r?\n/).map(l => l.trim()).filter(l => l.length > 0);
+            const templateLines = splitLines(templateText);
+            const issueLines = splitLines(issueBody);
+            const templateSet = new Set(templateLines);
+            
+            let keptLines = 0;
+            issueLines.forEach(line => {
+                if (templateSet.has(line)) keptLines++;
+            });
+
+            const retentionPct = keptLines / templateLines.length;
+            const userLines = issueLines.length - keptLines;
+
+            // Threshold: >60% template retention AND <4 unique user lines
+            const isLaziness = (retentionPct > 0.60) && (userLines < 4);
+            const marker = "";
+
+            // 3. Action
+            if (isLaziness) {
+                console.log(`Low effort detected (Retention: ${(retentionPct*100).toFixed(0)}%, User lines: ${userLines}).`);
+                
+                try {
+                    await github.rest.issues.addLabels({
+                      owner: context.repo.owner,
+                      repo: context.repo.repo,
+                      issue_number: context.payload.issue.number,
+                      labels: ["missing-info"]
+                    });
+                } catch (e) { console.log("Label add failed: " + e.message); }
+
+                // Check for existing comment to avoid spam
+                const comments = await github.rest.issues.listComments({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.payload.issue.number
+                });
+                
+                if (!comments.data.some(c => c.body.includes(marker))) {
+                    await github.rest.issues.createComment({
+                      owner: context.repo.owner,
+                      repo: context.repo.repo,
+                      issue_number: context.payload.issue.number,
+                      body: `${marker}\n⚠️ **Issue Report Quality Check**\n\nIt appears this issue contains mostly default template text with very little unique description.\n\n1. Please **delete** the instructional text (e.g., "Please include the following log file...").\n2. Provide the actual logs and details requested.\n\n**The 'missing-info' label will be automatically removed when you update the issue.**`
+                    });
+                }
+            } else {
+                console.log("Issue quality passed. Ensuring label is removed.");
+                try {
+                    await github.rest.issues.removeLabel({
+                      owner: context.repo.owner,
+                      repo: context.repo.repo,
+                      issue_number: context.payload.issue.number,
+                      name: "missing-info"
+                    });
+                } catch (e) { 
+                    // Ignore 404 (label not present)
+                }
+            }
