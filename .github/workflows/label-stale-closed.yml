@@ -1,0 +1,18 @@
+name: Label Stale Closed
+on:
+  issues:
+    types: [closed]
+
+jobs:
+  label-closed:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    if: github.actor == 'github-actions[bot]' && contains(github.event.issue.labels.*.name, 'stale')
+    steps:
+      - name: Swap stale label for expired
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+        run: |
+          gh issue edit "$ISSUE_URL" --add-label "expired" --remove-label "stale"
