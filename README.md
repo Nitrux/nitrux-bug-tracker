@@ -14,24 +14,25 @@ Before submitting a bug, you should look at the [existing bug reports](https://g
 > [!IMPORTANT]
 > Open Issues without activity after 3 days will be considered stale. And issues without activity after 7 days will be automatically closed.
 
-> [!NOTE]
-> We use labels to communicate the state of a report. Maintainers will apply the appropriate labels to any issue—including marking incomplete reports or unsupported use cases (like virtualization).
+## What qualifies as a bug report?
 
-## Determine if the bug is a bug
+Please do not file a bug report to:
 
-You should not file a bug report if you want to:
-
-1. Request new software.
-    - For such circumstances, please add a [feature request](#how-to-make-a-feature-request).
-2. Filing a bug against software not maintained or developed by Nitrux, unless it's specific to Nitrux.
-    - For example, only open a bug report if GIMP crashes only in Nitrux. If it's a general crash due to a bug in GIMP, don't open a bug report here.
-    - On the other hand, please open a bug report in this repository if the Maui Apps have issues, or if a setting we apply is causing an adverse effect.
-3. Discuss features or existing policies, or propose new features or ideas.
+- Request new software.
+  - For such circumstances, please submit a [feature request](#how-to-make-a-feature-request).
+- Report bugs in upstream software (unless the issue is unique to Nitrux).
+  - Example: If GIMP crashes on Arch, Fedora, and Nitrux, do not report it here. That is an upstream bug.
+  - Exception: If GIMP works elsewhere but crashes only on Nitrux, please report it here.
+  - Note: Always report issues with Maui Apps or Nitrux-specific configurations here.
+- Discuss policies or propose general ideas.
     - For such circumstances, please open a [discussion](https://github.com/orgs/Nitrux/discussions).
+
+> [!NOTE]
+> We use labels to communicate the state of a report. We reserve the discretion to apply these labels to any report based on its content to any issue—including marking incomplete reports or unsupported use cases (like virtualization).
 
 ----
 
-Nitrux uses GitHub to keep track of feature requests.
+Nitrux uses GitHub to keep track of feature requests and their implementation.
 
 # Submitting a Feature Request
 
@@ -44,19 +45,21 @@ Before submitting a feature request, you should look at the [existing feature re
 
 ## How do I write a reasonable feature request?
 
-- A feature request should be specific.
-- Include images that would make the request tangible.
-- Reference factual content in support of your request.
+- Be specific. Define exactly what you want and why.
+- Visualize it. Include images or mockups that make the request clear.
+- Back it up. Reference factual content or use cases to support your request.
 
 ## What should I not do?
 
-- Avoid being vague about the benefits (or possible drawbacks).
-- Don't leave the specifics up to the community. While this is your feature request, it should clearly outline what you think. Unclear requests may be closed as too broad or unclear.
-- Avoid emotional discussions or motivations.
-- Don't ask for the moon; be realistic.
-- Avoid filing a feature request against software not maintained or developed by Nitrux.
-    - For example, Nitrux can't add a new feature to GIMP like tilt-shift effects
-    - On the contrary, Nitrux can add a missing driver or firmware file, CLI utility, or (put into consideration) another GUI application to the default selection.
+- Don't be vague about the benefits or possible drawbacks.
+- Don't rely on the community to figure it out. While this is your request, you must clearly outline the implementation or goal. Unclear requests may be closed.
+- Avoid emotional arguments. Stick to technical or practical reasons.
+- Be realistic. Keep the scope of the request achievable.
+- Do not file requests for upstream software.
+    - For example: Nitrux cannot add "tilt-shift effects" to GIMP; that is a request for GIMP developers.
+    - However, Nitrux can add missing drivers, firmware, CLI utilities, or consider adding a new GUI application to the default selection.
+- Do not use the Bug Tracker for general ideas or policy debates.
+    - For such circumstances, please open a [discussion](https://github.com/orgs/Nitrux/discussions).
 
 ----
 
