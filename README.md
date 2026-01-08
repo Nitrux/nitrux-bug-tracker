@@ -1,8 +1,23 @@
 # Bug and Feature Request Tracker for Nitrux
-## How to report a Bug
+
 Nitrux uses GitHub to keep track of bugs and their fixes.
 
-#### Determine if the bug is a bug
+# Submitting a Bug Report
+
+Before submitting a bug, you should look at the [existing bug reports]([url](https://github.com/Nitrux/nitrux-bug-tracker/issues)) and [known issues]([url](https://nxos.org/known-issues)) to verify nobody else has reported it or it's not already fixed.
+
+1. Go to the Issues tab.
+2. Click the New Issue button.
+3. Click on **🐞 Bug report.**
+4. Complete all the relevant information requested by the template.
+
+> [!IMPORTANT]
+> Open Issues without activity after 3 days will be considered stale. And issues without activity after 7 days will be automatically closed.
+
+> [!NOTE]
+> Issues without the necessary information will be labeled as ![](https://img.shields.io/github/labels/Nitrux/nitrux-bug-tracker/missing-info)
+
+## Determine if the bug is a bug
 
 You should not file a bug report if you want to:
 
@@ -14,46 +29,39 @@ You should not file a bug report if you want to:
 3. Discuss features or existing policies, or propose new features or ideas.
     - For such circumstances, please open a [discussion](https://github.com/orgs/Nitrux/discussions).
 
-#### Submitting a bug report
+----
 
-Before submitting a bug, you should look at the [existing bug reports]([url](https://github.com/Nitrux/nitrux-bug-tracker/issues)) and [known issues]([url](https://nxos.org/known-issues)) to verify nobody else has reported it.
+Nitrux uses GitHub to keep track of feature requests.
 
-You must specify three things:
+# Submitting a Feature Request
 
-1. What do you expect to happen?
-2. What happened?
-3. If possible, provide a minimal series of steps necessary to make it happen, where level 1 is "start the program."
+Before submitting a feature request, you should look at the [existing feature requests](https://github.com/Nitrux/nitrux-bug-tracker/issues) and [release announcements](https://nxos.org/changelog) to verify that nobody else has requested it or that it isn't already present.
 
-#### Additional information about the bug
+1. Go to the Issues tab.
+2. Click the New Issue button.
+3. Click on **🚀 Feature request**
+4. Complete all the relevant information requested by the template.
 
-Some extra options you can use to make your bug report more complete:
+## How do I write a reasonable feature request?
 
-1. This bug is a security vulnerability: Please check this only if your bug report describes behavior that a malicious actor could exploit to compromise your security or safety and cause issues such as identity theft or "hi-jacking."
-2. Add attachments: Include screenshots, video captures, or sample documents that help explain or reproduce the bug.
+- A feature request should be specific.
+- Include images that would make the request tangible.
+- Reference factual content in support of your request.
+
+## What should I not do?
+
+- Avoid being vague about the benefits (or possible drawbacks).
+- Don't leave the specifics up to the community. While this is your feature request, it should clearly outline what you think. Unclear requests may be closed as too broad or unclear.
+- Avoid emotional discussions or motivations.
+- Don't ask for the moon; be realistic.
+- Avoid filing a feature request against software not maintained or developed by Nitrux.
+    - For example, Nitrux can't add a new feature to GIMP like tilt-shift effects
+    - On the contrary, Nitrux can add a missing driver or firmware file, CLI utility, or (put into consideration) another GUI application to the default selection.
 
 ----
 
-## How to make a Feature Request
-Nitrux uses GitHub to keep track of feature requests.
+# Licensing
 
-#### Submitting a feature request
-
-Before submitting a feature request, you should look at the [existing feature requests](https://github.com/Nitrux/nitrux-bug-tracker/issues) and [release announcements](https://nxos.org/changelog) to verify that nobody else has requested it.
-
-#### How do I write a reasonable feature request?
-
-1. A feature request should be specific.
-2. Include images that would make the request tangible.
-3. Reference factual content in support of your request.
-
-#### What should I not do?
-
-1. Avoid being vague about the benefits (or possible drawbacks).
-2. Don't leave the specifics up to the community. While this is your feature request, it should clearly outline what you think. Unclear requests may be closed as too broad or unclear.
-3. Avoid emotional discussions or motivations.
-4. Don't ask for the moon; be realistic.
-5. Avoid filing a feature request against software not maintained or developed by Nitrux.
-    - For example, Nitrux can't add a new feature to GIMP like tilt-shift effects
-    - On the contrary, Nitrux can add a missing driver or firmware file, CLI utility, or (put into consideration) another GUI application to the default selection.
+The license for this repository and its contents is **BSD-3-Clause**.
 
 ©2021 Nitrux Latinoamericana S.C.
