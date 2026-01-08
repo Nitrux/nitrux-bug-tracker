@@ -15,7 +15,7 @@ Before submitting a bug, you should look at the [existing bug reports]([url](htt
 > Open Issues without activity after 3 days will be considered stale. And issues without activity after 7 days will be automatically closed.
 
 > [!NOTE]
-> Issues without the necessary information will be labeled as ![](https://img.shields.io/github/labels/Nitrux/nitrux-bug-tracker/missing-info)
+> Open Issues without the necessary information will be labeled as: ![](https://img.shields.io/github/labels/Nitrux/nitrux-bug-tracker/missing-info). And, open Issues regarding virtualizing Nitrux will be labeled as: ![](https://img.shields.io/github/labels/Nitrux/nitrux-bug-tracker/wontfix) 
 
 ## Determine if the bug is a bug
 
@@ -25,7 +25,7 @@ You should not file a bug report if you want to:
     - For such circumstances, please add a [feature request](#how-to-make-a-feature-request).
 2. Filing a bug against software not maintained or developed by Nitrux, unless it's specific to Nitrux.
     - For example, only open a bug report if GIMP crashes only in Nitrux. If it's a general crash due to a bug in GIMP, don't open a bug report here.
-    - Also, please open a bug report in this repository if the Maui Apps have issues, or if a setting we apply is causing an adverse effect.
+    - On the other hand, please open a bug report in this repository if the Maui Apps have issues, or if a setting we apply is causing an adverse effect.
 3. Discuss features or existing policies, or propose new features or ideas.
     - For such circumstances, please open a [discussion](https://github.com/orgs/Nitrux/discussions).
 
