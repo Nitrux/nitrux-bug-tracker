@@ -34,6 +34,6 @@ jobs:
           else
             for id in $ISSUES_TO_DELETE; do
               echo "Deleting issue #$id..."
-              gh issue delete "$id" --yes
+              gh issue delete "$id" --repo "$OWNER/$REPO" --yes
             done
           fi
